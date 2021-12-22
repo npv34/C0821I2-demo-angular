@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/layouts/header/header.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { FooterComponent } from './components/core/footer/footer.component';
-import {FormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { CommentComponent } from './components/comment/comment.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -23,6 +23,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppRoutingModule,
     FormsModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
